@@ -62,7 +62,6 @@
 
 <h2 align="center">📊 GitHub Analytics</h2>
 
-
 <p align="center">
   <img 
   src="https://github-readme-stats.vercel.app/api?username=abhay-gautam0&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true"
@@ -71,6 +70,12 @@
   <img 
   src="https://streak-stats.demolab.com?user=abhay-gautam0&theme=tokyonight&hide_border=true"
   width="49%" />
+</p>
+
+<p align="center">
+  <img 
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abhay-gautam0&theme=tokyonight"
+  width="98%" />
 </p>
 
 
@@ -86,10 +91,3 @@
   <img src="game.gif">
 </p>
 
-<p align="center">
-⭐ Leveling up one commit at a time ⭐
-</p>
-
-🚀 Featured Projects
-
-ProjectDescriptionTech🤖 AI-Powered Resume ScreenerAutomates recruitment by parsing and ranking resumes using NLPPython, NLP, React.js📄 AI Resume GeneratorEnd-to-end automation pipeline that generates tailored PDF resumesN8n, Gemini AI, LaTeX📊 Vendor Performance AnalyticsData pipeline from CSV to SQLite with Power BI dashboardsPython, SQLite, Power BI📈 Mutual Fund AnalysisStatistical analysis and KPI dashboards for mutual fundsPython, Power BI

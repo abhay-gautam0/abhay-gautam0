@@ -82,9 +82,7 @@
 
 
 <p align="center">
-<img 
-src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/mario-contribution-dark.svg"
-/>
+<img src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/racing.svg">
 </p>
 
 

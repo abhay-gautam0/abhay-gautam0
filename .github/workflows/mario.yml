@@ -9,34 +9,29 @@ on:
 permissions:
   contents: write
 
-
 jobs:
   generate:
     runs-on: ubuntu-latest
 
-
     steps:
 
-      - name: Generate Race Track
+      - name: Generate Racing Track
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: abhay-gautam0
-
           outputs: |
-            dist/racing.svg?palette=github-dark
+            dist/racing.svg?palette=github-dark&color_snake=#ff0000&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
 
-      - name: Customize Racing Track
+      - name: Add F1 Theme
         run: |
+          sed -i 's/<\/svg>/<text x="20" y="20" font-size="20">🚦 START<\/text><text x="600" y="20" font-size="20">FINISH 🏁<\/text><text x="60" y="80" font-size="28">🏎️💨<\/text><\/svg>/' dist/racing.svg
 
-          sed -i 's/<\/svg>/<text x="50%" y="30" text-anchor="middle" font-size="22" fill="white">🏁 ABHAY GRAND PRIX 🏁<\/text><\/svg>/' dist/racing.svg
 
-
-      - name: Deploy Race Track
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
 
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
           publish_branch: output
           publish_dir: ./dist

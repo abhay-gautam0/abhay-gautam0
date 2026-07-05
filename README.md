@@ -58,16 +58,24 @@
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
 </p>
 
-## 📊 GitHub Stats
+
+
+<h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
   <img 
-  src="https://github-readme-stats-eight-theta.vercel.app/api?username=abhay-gautam0&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" 
-  width="48%" />
+  src="https://github-readme-stats.vercel.app/api?username=abhay-gautam0&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true"
+  width="49%" />
 
   <img 
-  src="https://github-readme-streak-stats.herokuapp.com?user=abhay-gautam0&theme=tokyonight&hide_border=true" 
-  width="48%" />
+  src="https://streak-stats.demolab.com?user=abhay-gautam0&theme=tokyonight&hide_border=true"
+  width="49%" />
+</p>
+
+<p align="center">
+  <img 
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abhay-gautam0&theme=tokyonight"
+  width="98%" />
 </p>
 
 <p align="center">

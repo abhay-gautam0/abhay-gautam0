@@ -25,4 +25,6 @@ jobs:
           username: abhay-gautam0
           output-path: game.gif
           strategy: random
-          fps: 25
+          fps: 40
+
+    

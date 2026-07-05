@@ -3,13 +3,21 @@ name: Generate Racing Contribution
 on:
   schedule:
     - cron: "0 */12 * * *"
+
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+
       - name: Generate racing graph
         uses: Platane/snk/svg-only@v3
         with:
@@ -17,14 +25,15 @@ jobs:
           outputs: |
             dist/racing.svg
 
-      - name: Add racing car effect
+
+      - name: Add racing effect
         run: |
           sed -i 's/<\/svg>/<text x="20" y="30" font-size="25">🏎️💨 ABHAY CODING CIRCUIT<\/text><\/svg>/' dist/racing.svg
 
-      - name: Push racing graph
-        uses: crazy-max/ghaction-github-pages@v3
+
+      - name: Deploy output branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist

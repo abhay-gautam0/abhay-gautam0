@@ -1,4 +1,4 @@
-name: Generate Racing Contribution
+name: Generate Racing Track
 
 on:
   schedule:
@@ -9,31 +9,34 @@ on:
 permissions:
   contents: write
 
+
 jobs:
   generate:
     runs-on: ubuntu-latest
 
+
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
 
-
-      - name: Generate racing graph
+      - name: Generate Race Track
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: abhay-gautam0
+
           outputs: |
-            dist/racing.svg
+            dist/racing.svg?palette=github-dark
 
 
-      - name: Add racing effect
+      - name: Customize Racing Track
         run: |
-          sed -i 's/<\/svg>/<text x="20" y="30" font-size="25">🏎️💨 ABHAY CODING CIRCUIT<\/text><\/svg>/' dist/racing.svg
+
+          sed -i 's/<\/svg>/<text x="50%" y="30" text-anchor="middle" font-size="22" fill="white">🏁 ABHAY GRAND PRIX 🏁<\/text><\/svg>/' dist/racing.svg
 
 
-      - name: Deploy output branch
+      - name: Deploy Race Track
         uses: peaceiris/actions-gh-pages@v4
+
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
           publish_branch: output
           publish_dir: ./dist

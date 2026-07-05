@@ -64,18 +64,19 @@
 
 <p align="center">
   <img 
-  src="https://github-readme-stats.vercel.app/api?username=abhay-gautam0&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true"
-  width="49%" />
+  src="https://github-readme-stats-eight-theta.vercel.app/api?username=abhay-gautam0&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"
+  width="48%" />
 
   <img 
   src="https://streak-stats.demolab.com?user=abhay-gautam0&theme=tokyonight&hide_border=true"
-  width="49%" />
+  width="48%" />
 </p>
+
 
 <p align="center">
   <img 
   src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abhay-gautam0&theme=tokyonight"
-  width="98%" />
+  width="95%" />
 </p>
 
 

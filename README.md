@@ -85,11 +85,6 @@ width="95%" />
 </p>
 
 
-<p align="center">
-  <img 
-  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abhay-gautam0&theme=tokyonight"
-  width="95%" />
-</p>
 
 
 <h2>

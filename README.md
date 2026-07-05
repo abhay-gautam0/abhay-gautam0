@@ -77,14 +77,12 @@
 </p>
 
 <h2 align="center">
-🍄 Abhay Contribution 🍄
+🏙️ Abhay Code City 🏙️
 </h2>
-
 
 <p align="center">
 
-<img 
-src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/racing.svg">
+<img src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/skyline.svg">
 
 </p>
 

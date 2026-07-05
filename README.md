@@ -83,7 +83,7 @@
 
 <p align="center">
 <img 
-src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/mario-contribution.svg"
+src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/mario-contribution-dark.svg"
 />
 </p>
 

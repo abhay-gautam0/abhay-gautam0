@@ -83,6 +83,10 @@
 </p>
 
 <p align="center">
+  <img src="game.gif">
+</p>
+
+<p align="center">
 ⭐ Leveling up one commit at a time ⭐
 </p>
 

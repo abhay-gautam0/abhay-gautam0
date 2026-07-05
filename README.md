@@ -62,6 +62,7 @@
 
 <h2 align="center">📊 GitHub Analytics</h2>
 
+
 <p align="center">
   <img 
   src="https://github-readme-stats.vercel.app/api?username=abhay-gautam0&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true"
@@ -78,11 +79,8 @@
   width="98%" />
 </p>
 
-<p align="center">
-  <img 
-  src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=abhay-gautam0&layout=compact&theme=tokyonight&hide_border=true" 
-  width="48%" />
-</p>
+
+<h2>
 🏙️ Abhay's Contribution 🏙️
 </h2>
 

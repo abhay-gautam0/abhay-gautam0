@@ -13,7 +13,7 @@ jobs:
       - name: Generate racing graph
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: YOUR_GITHUB_USERNAME
+          github_user_name: abhay-gautam0
           outputs: |
             dist/racing.svg
 

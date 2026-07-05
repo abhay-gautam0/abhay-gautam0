@@ -1,0 +1,27 @@
+name: Generate Mario
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate Mario Contribution Graph
+        uses: p4l1ly/github-mario-game@v1.1.4
+        with:
+          github_user_name: abhay-gautam0
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output_dir: dist
+
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

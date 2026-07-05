@@ -22,8 +22,6 @@
 
 🛠️ Tech Stack
 
-💻 Languages
-
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
@@ -60,23 +58,25 @@
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
 </p>
 
-📊 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abhay-gautam0&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abhay-gautam0&theme=tokyonight&hide_border=true" width="48%" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhay-gautam0&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+  <img 
+  src="https://github-readme-stats-eight-theta.vercel.app/api?username=abhay-gautam0&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" 
+  width="48%" />
+
+  <img 
+  src="https://github-readme-streak-stats.herokuapp.com?user=abhay-gautam0&theme=tokyonight&hide_border=true" 
+  width="48%" />
 </p>
 
-<h2 align="center">
+<p align="center">
+  <img 
+  src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=abhay-gautam0&layout=compact&theme=tokyonight&hide_border=true" 
+  width="48%" />
+</p>
 🏙️ Abhay's Contribution 🏙️
 </h2>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/skyline.svg">
-</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/pacman-contribution-graph.svg">

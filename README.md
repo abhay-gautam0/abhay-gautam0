@@ -62,21 +62,28 @@
 
 <h2 align="center">📊 GitHub Analytics</h2>
 
-<div align="center">
+<table align="center">
+<tr>
+<td>
 
 <img 
 src="https://github-readme-stats-eight-theta.vercel.app/api?username=abhay-gautam0&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"
-height="180"
+width="400"
 />
+
+</td>
+
+<td>
 
 <img 
 src="https://streak-stats.demolab.com?user=abhay-gautam0&theme=tokyonight&hide_border=true"
-height="180"
+width="400"
 />
 
-</div>
+</td>
+</tr>
+</table>
 
-<br>
 
 <p align="center">
 <img 

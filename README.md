@@ -75,12 +75,11 @@
 </h2>
 
 <p align="center">
-
-<img src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/main/skyline.svg">
-
+  <img src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/skyline.svg">
 </p>
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/github-contribution-graph-galaga.svg">
+  <img src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/pacman-contribution-graph.svg">
 </p>
 
 <p align="center">

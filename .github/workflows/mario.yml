@@ -12,11 +12,11 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Generate Mario Contribution Graph
-        uses: p4l1ly/github-mario-game@v1.1.4
+        uses: Platane/snk@v3
         with:
           github_user_name: abhay-gautam0
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          output_dir: dist
+          outputs: |
+            dist/github-contribution-grid-mario.svg?color_snake=red&color_dots=#ff0000,#ff6600,#ffcc00,#00cc00,#0000ff&head=mario
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3

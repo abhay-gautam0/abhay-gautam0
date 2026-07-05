@@ -70,12 +70,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhay-gautam0&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
 </p>
 
-🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=abhay-gautam0&theme=tokyonight&no-frame=true&row=1&column=7" />
-</p>
-
 <h2 align="center">
 🏙️ Abhay's Contribution 🏙️
 </h2>

@@ -82,10 +82,9 @@
 
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/skyline.svg">
+<img src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/main/skyline.svg">
 
 </p>
-
 
 <p align="center">
 ⭐ Leveling up one commit at a time ⭐

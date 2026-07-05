@@ -73,12 +73,6 @@
   width="49%" />
 </p>
 
-<p align="center">
-  <img 
-  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abhay-gautam0&theme=tokyonight"
-  width="98%" />
-</p>
-
 
 <h2>
 🏙️ Abhay's Contribution 🏙️

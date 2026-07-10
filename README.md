@@ -98,9 +98,7 @@ width="95%" />
 🏙️ Abhay's Contribution 🏙️
 </h2>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/abhay-gautam0/abhay-gautam0/output/pacman-contribution-graph.svg">
-</p>
+
 
 <p align="center">
   <img src="game.gif">
